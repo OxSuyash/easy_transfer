@@ -1,0 +1,47 @@
+nav  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb(8, 17, 90);
+    padding: 10px;
+    margin: 0%;
+    color: white;
+}
+nav h1{
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 60vw;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    /* background-color: red; */
+    color: white;
+    font-size: 20px;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.branding{
+    padding-top: 0%;
+}
+
+ul button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,71 @@
+.sendbig-container {
+    background-color: #e2edff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.sendbig-container #form2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(1, 11, 199,0.3);
+    border-radius: 10px;
+    margin: 180px 100px;
+    padding: 50px;
+   
+    
+}
+#form2 input{
+    margin: 10px;
+    font-size: 20px;
+    width: 50vw;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+#form2 #btn1{
+    width: 10vw;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(42, 2, 84);
+    border: 2px solid rgb(42, 2, 84);
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+#form2 #btn1:hover{
+    background-color: rgb(42, 2, 84);
+    color: white;
+    transform: scale(0.95);
+}
+
+#form2 h2{
+    align-self: center;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 30px;
+    color: rgb(42, 2, 84);
+}
+
+#form2 #btn2{
+    margin-top: 25px;
+    width: 25vw;
+    margin-left: 190px;
+    padding: 15px;
+     cursor: pointer;
+     color: rgb(42, 2, 84);
+     border: 2px solid rgb(42, 2, 84);
+     border-radius: 10px;
+     font-size: 20px;
+     transition: all 0.3s ease-in-out;
+ }
+ 
+ #form2 #btn2:hover{
+     background-color: rgb(42, 2, 84);
+     color: white;
+     transform: scale(0.95);
+  
+ }

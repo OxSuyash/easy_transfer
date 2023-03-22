@@ -1,0 +1,47 @@
+.home-container {
+    /* background-color: #e2edff; */
+    min-height: 100vh;
+    
+}
+
+#intro{
+    background-color: #e2edff;
+    min-height: 50vh;
+    padding-top: 20px;
+}
+
+#intro p{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+    color: rgb(42, 2, 84);
+    font-family: 'Shantell Sans', cursive;
+}
+
+#btn6{
+    margin-left: 700px;
+    margin-right: auto;
+    padding: 0 25px;
+    font-size: 60px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(42, 2, 84);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(176, 176, 189);
+    
+}
+#btn6:hover{
+    background-color: rgb(42, 2, 84);
+    color: white;
+    transform: scale(0.95);
+}
+
+#btn6 a{
+    text-decoration: none;
+}
+
+#img1{
+    margin-left: 90px;
+    opacity: 0.5;
+}
